@@ -1,18 +1,18 @@
 {
-    "name": ":vendor/:package_name",
+    "name": "atiqur/test_pack",
     "type": "library",
-    "description": ":package_description",
+    "description": "This is a testing package; learning how to create a package installable via composer",
     "keywords": [
-        ":vendor",
-        ":package_name"
+        "atiqur",
+        "test_pack"
     ],
-    "homepage": "https://github.com/:vendor/:package_name",
+    "homepage": "https://github.com/atiqur/test_pack",
     "license": "MIT",
     "authors": [
         {
             "name": ":author_name",
             "email": ":author_email",
-            "homepage": ":author_website",
+            "homepage": "atiq.movtorrents.com",
             "role": "Developer"
         }
     ],
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            ":vendor\\:package_name\\": "src"
+            "atiqur\\test_pack\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            ":vendor\\:package_name\\": "tests"
+            "atiqur\\test_pack\\": "tests"
         }
     },
     "scripts": {
